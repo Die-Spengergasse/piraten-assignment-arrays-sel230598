@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48ae8de3-8df8-4b32-a660-f5a31bdd696c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/at/spengergasse/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/at/spengergasse/PiratTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/spengergasse/TestPirat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at/spengergasse/TestPirat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/spengergasse/TestSchiff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at/spengergasse/TestSchiff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/spengergasse/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/spengergasse/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/spengergasse/Pirat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/spengergasse/Pirat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/at/spengergasse/MainTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/at/spengergasse/TestPirat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/at/spengergasse/TestSchiff.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +33,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2YR6TzzB4yzr4EvZ7Mxcl2AEmAq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -44,6 +50,8 @@
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "/home/georg/IdeaProjects/pos-java-kif-piratenschiff/src/main/java/at/spengergasse",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -70,7 +78,7 @@
       <recent name="at.spengergasse" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.PiratTest.trinkeWasser">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="at.spengergasse.Main" />
       <module name="pos-java-kif-piratenschiff" />
@@ -84,9 +92,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PiratTest.getGesundheit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pos-java-kif-piratenschiff" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.spengergasse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.spengergasse" />
+      <option name="MAIN_CLASS_NAME" value="at.spengergasse.PiratTest" />
+      <option name="METHOD_NAME" value="getGesundheit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PiratTest.trinkeRum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pos-java-kif-piratenschiff" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.spengergasse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.spengergasse" />
+      <option name="MAIN_CLASS_NAME" value="at.spengergasse.PiratTest" />
+      <option name="METHOD_NAME" value="trinkeRum" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PiratTest.trinkeWasser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pos-java-kif-piratenschiff" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.spengergasse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.spengergasse" />
+      <option name="MAIN_CLASS_NAME" value="at.spengergasse.PiratTest" />
+      <option name="METHOD_NAME" value="trinkeWasser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PiratTest.trinkeWasser" />
+        <item itemvalue="JUnit.PiratTest.trinkeRum" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.PiratTest.getGesundheit" />
       </list>
     </recent_temporary>
   </component>
@@ -99,6 +158,8 @@
       <option name="presentableId" value="Default" />
       <updated>1700476057434</updated>
       <workItem from="1700476058826" duration="2171000" />
+      <workItem from="1700491087841" duration="503000" />
+      <workItem from="1700491612046" duration="6097000" />
     </task>
     <task id="LOCAL-00001" summary="first commit piraten">
       <option name="closed" value="true" />
@@ -117,16 +178,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit piraten" />
     <option name="LAST_COMMIT_MESSAGE" value="first commit piraten" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/at/spengergasse/Main.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
